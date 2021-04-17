@@ -13,7 +13,7 @@ namespace ClassMetotDemo
 
         public void Sil(Musteri musteri)
         {
-            Console.WriteLine(musteri.Adi + " " +  musteri.Soyadi + " isimli müşteri silindi " + musteri.CariHesapBakiye + " TL bakiyesini çekerek hesabını kapattı.");
+            Console.WriteLine(musteri.Adi + " " +  musteri.Soyadi + " isimli müşteri " + musteri.CariHesapBakiye + " TL bakiyesini çekerek hesabını kapattı.");
         }
 
         public void Listele(Musteri musteri)
